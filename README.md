@@ -3,7 +3,7 @@
 A production-ready RESTful API for managing an online store — with authentication, product/catalog management, shopping cart, and order handling. Built with Node.js, Express, and MongoDB.
 
 # 🌐 Live Demo
-https://your-live-api-url.com
+https://ecommerce-backend-8mu7.onrender.com
 
  #🚀 Features
 
