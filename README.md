@@ -1,11 +1,11 @@
-🛒 E-Commerce Backend API
+# 🛒 E-Commerce Backend API
 
 A production-ready RESTful API for managing an online store — with authentication, product/catalog management, shopping cart, and order handling. Built with Node.js, Express, and MongoDB.
 
-🌐 Live Demo
+# 🌐 Live Demo
 https://your-live-api-url.com
 
-🚀 Features
+ #🚀 Features
 
 👤 User Authentication — Register, Login, and Get Profile
 🔑 JWT Authentication & Role-based Access (User / Admin)
@@ -17,7 +17,7 @@ https://your-live-api-url.com
 🌍 MongoDB Atlas Integration
 🔒 Security Middleware — Helmet, CORS, Rate Limiting
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 
 Node.js — Runtime
 
@@ -35,7 +35,7 @@ dotenv — Environment variable management
 
 Postman — API testing
 
-📂 Project Structure
+# 📂 Project Structure
 ecommerce-backend/
 │── controllers/ # Route logic
 │── middlewares/ # Auth, validation, error handling
@@ -46,14 +46,14 @@ ecommerce-backend/
 │── .env # Environment variables
 └── package.json # Project dependencies
 
-🔐 API Authentication
+# 🔐 API Authentication
 
 All protected routes require a JWT token in the Authorization header:
 
 Authorization: Bearer <your_token_here>
 
 📡 Example Endpoints
-🔑 Auth
+# 🔑 Auth
 
 POST /api/auth/register → Register a new user
 
@@ -61,7 +61,7 @@ POST /api/auth/login → Login and receive a JWT
 
 GET /api/auth/me → Get current authenticated user
 
-📦 Products
+# 📦 Products
 
 GET /api/products → Get all products
 
@@ -73,13 +73,13 @@ PUT /api/products/:id → Update product (Admin only)
 
 DELETE /api/products/:id → Delete product (Admin only)
 
-🛒 Cart
+# 🛒 Cart
 
 POST /api/cart → Add item to cart
 
 GET /api/cart → Get user’s cart
 
-📑 Orders
+# 📑 Orders
 
 POST /api/orders → Place an order
 
@@ -87,7 +87,7 @@ GET /api/orders/my → Get user’s orders
 
 PUT /api/orders/:id/pay → Pay for an order
 
-⚙️ Setup
+# ⚙️ Setup
 1️⃣ Clone the repository
 git clone https://github.com/Nuel999/ecommerce-backend.git
 cd ecommerce-backend
@@ -111,6 +111,6 @@ npm run dev
 
 npm start
 
-👨‍💻 Author
+# 👨‍💻 Author
 
 Built with ❤️ by Emmanuel Maurice
