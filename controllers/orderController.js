@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Order = require("../models/Order");
-const Product = require("../models/product");
+const Product = require("../models/Product");
 const AppError = require("../utils/AppError");
 
 const placeOrder = async (req, res, next) => {
