@@ -1,10 +1,10 @@
 class AppError extends Error {
   constructor(message, statusCode) {
-    super(message);
-    this.statusCode = statusCode;
-    this.isOperational = true; // Helps distinguish expected vs unexpected errors
+    super(message); // call the parent Error constructor
+    this.statusCode = statusCode; // custom property for HTTP status (e.g. 404, 500)
+    this.isOperational = true; // flag to mark expected ("operational") errors
+
+    // captures the stack trace, excluding this constructor
     Error.captureStackTrace(this, this.constructor);
   }
 }
-
-module.exports = AppError
