@@ -22,6 +22,7 @@ app.use(helmet());
 app.use(cors());
 app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 100 }));
 
+// logging middleware
 app.use(morgan("dev")); // logging middleware
 
 // Routes

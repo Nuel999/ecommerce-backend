@@ -2,6 +2,8 @@ const User = require("../models/User");
 const Product = require("../models/Product");
 const AppError = require("../utils/AppError");
 const { productSchema } = require("../validations/product");
+
+
 // Get all users
 const getAllUsers = async (req, res, next) => {
   try {
